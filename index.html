@@ -1,88 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <style>
-        *{ box-sizing: border-box;
-            padding:0 ;
-            margin: 0;
-
-
+        li {
+            width: 200px;
+            height: 150px;
+            border: 1px solid blue;
+            border-radius: 8px;
+            list-style-type: none;
+            text-align: center;
+            float: left;
+            margin: 20px;
         }
-        body{
-            padding: 0;
-            margin: 0;
-        }
-        nav{
-            display: flex;
-            justify-content: space-between;
-            padding-inline:10% ;
-            padding-block: 20px;
-            align-content: center;
-        }
-nav ul{
-    display: flex;
-    list-style: none;
-    gap:30px;
-}
-nav button{ 
-   
-    background-color: black;
-    border-radius:50%;
-    color: aliceblue;
-    align-items: center;
-    box-sizing: border-box;
-   
-}
-#Turning{
-   display: flex;
-    align-items: center;
-    padding-inline: 20%;
-}
-.button{
-    display: flex;
-}
-
-
     </style>
+
 </head>
 <body>
-<nav>
+     <h2>Product List</h2>
     <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Project</li>
-        <li>Articale</li>
+        <li><a href="ProductDetail.html?id=1">Product 1</a></li>
+        <li><a href="ProductDetail.html?id=2">Product 2</a></li>
+        <li><a href="ProductDetail.html?id=3">Product 3</a></li>
     </ul>
-    <button>CB</button>
-    <ul>
-        <li style="color: cornflowerblue;"> <i class="fa-brands fa-twitter"></i></li>
-        <li style="color: black;"><i class="fa-brands fa-github"></i></li>
-        <li style="color: blue;"><i class="fa-brands fa-linkedin"></i></li>
-        <li style="color: red;"><i class="fa-brands fa-pinterest"></i></li>
-        <li style="color: pink;"><i class="fa-solid fa-bowling-ball"></i></li>
-        <li style="color: rgb(48, 48, 40);"><i class="fa-solid fa-moon"></i></li>
-    </ul>
-    </nav>
-    <div id="Turning">
-        <div>
-            <img src="https://www.borodindaniel.com/_next/image?url=/_next/static/media/developer-pic-1.d43c09fa.png&w=3840&q=75" alt="">
-        </div>
-        <div>
-        <h2> Turining Vision into reality with code and design</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui assumenda eaque odio aperiam molestiae sunt. Perspiciatis assumenda numquam asperiores? Qui sit culpa ab perferendis suscipit quaerat dolorem quibusdam est? Rerum.</p>
-            <div class="resume">
-         <button>Resume</button>
-         <a href=" ">contect</a>
-         </div>
-        </div>
-        </div>
-
-</body >
+</body>
 </html>
